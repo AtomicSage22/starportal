@@ -26,6 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.hero {
+  background-image: url('../assets/intract_background.png');
+  background-position: center;
+  background-size: cover;
+  
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
