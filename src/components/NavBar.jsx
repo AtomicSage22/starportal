@@ -46,7 +46,7 @@ export default function NavBar() {
     as="nav"
     className={`${
       isScrolled
-        ? `sticky sticky-header top-0 z-50 border-b border-gray-800`
+        ? `sticky sticky-header top-0 z-50 border-b border-gray-800 backdrop-blur-lg`
         : "bg-black shadow border-b border-gray-800"
     }`}
   >
